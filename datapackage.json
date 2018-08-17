@@ -1,0 +1,225 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/production_ecsc.csv",
+            "profile": "tabular-data-resource",
+            "name": "production_ecsc",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "product",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mass",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/production_derived.csv",
+            "profile": "tabular-data-resource",
+            "name": "production_derived",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "product",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mass",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/supply_by_alloy.csv",
+            "profile": "tabular-data-resource",
+            "name": "supply",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "product_category",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "product_alloy",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "product",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "uk_production_to_industry",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "uk_production_to_stockholders",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "imports",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/supply.csv",
+            "profile": "tabular-data-resource",
+            "name": "supply",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "product",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "product_category",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "uk_production_to_industry",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "uk_production_to_stockholders",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "imports",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/production_ecsc_for_derived.csv",
+            "profile": "tabular-data-resource",
+            "name": "production_ecsc_for_derived",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "product",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mass",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "data/exports.csv",
+            "profile": "tabular-data-resource",
+            "name": "exports",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "product_type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "product",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "year",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "mass",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}

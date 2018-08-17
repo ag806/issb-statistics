@@ -1,0 +1,18 @@
+product_category,product_alloy,product,uk_production_to_industry,uk_production_to_stockholders,imports,year
+ECSC,non-alloy,"Ingots, blooms, billets and slabs",29.3,1.1,15.5,2016
+ECSC,non-alloy,Rods and bars for reinforcement,646.5,0.4,509.6,2016
+ECSC,non-alloy,Rods in coil,119.0,19.7,114.7,2016
+ECSC,non-alloy,Hot rolled bars in lengths,32.6,94.1,129.5,2016
+ECSC,non-alloy,"Heavy sections, sheet piling, rails and rolled accessories",206.4,558.3,764.0,2016
+ECSC,non-alloy,Light sections,12.6,45.8,25.2,2016
+ECSC,non-alloy,Plates in coil and in lengths,84.7,110.3,355.5,2016
+ECSC,non-alloy,"Sheets, coated and uncoated",582.7,986.2,3160.5,2016
+ECSC,stainless,"Ingots, blooms, billets and slabs",0.4,0.1,4.6,2016
+ECSC,stainless,Long products,0.8,3.2,13.5,2016
+ECSC,stainless,Flat products,0.0,0.0,192.7,2016
+ECSC,other,"Ingots, blooms, billets and slabs",24.9,0.7,17.4,2016
+ECSC,other,Long products,48.9,19.2,134.2,2016
+ECSC,other,Flat products,33.7,73.7,193.2,2016
+Derived,all,Bright bars,32.9,37.1,75.9,2016
+Derived,all,Cold rolled narrow strip,22.7,0.0,77.3,2016
+Derived,all,Tubes and pipes,79.1,292.8,908.1,2016
